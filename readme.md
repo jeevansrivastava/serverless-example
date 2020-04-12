@@ -1,5 +1,3 @@
-## Serverless example for LogRocket blog
-
 
 To start the application? Run ```npm start```
 
