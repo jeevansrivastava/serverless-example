@@ -1,0 +1,32 @@
+{
+  "name": "uolo-assignment",
+  "version": "1.0.0",
+  "description": "Serverless Example for LogRocket Blog",
+  "main": "handler.js",
+  "scripts": {
+    "start": "SLS_DEBUG=* && serverless offline start --skipCacheInvalidation",
+    "deploy": "sls deploy -v"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "serverless-http": "^2.3.2",
+    "uuid": "^3.4.0"
+  },
+  "author": "Jeevan",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-dotenv": "^1.0.0-beta.2",
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^5.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeevansrivastava/uolo-assignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeevansrivastava/uolo-assignment/issues"
+  },
+  "homepage": "https://github.com/jeevansrivastava/uolo-assignment#readme"
+}
