@@ -5,14 +5,14 @@ app: assignment-api
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12
   stage: dev
   region: us-east-1
 
 
 functions:
   assignmentAPI:
-    handler: Controller/assignment.handler
+    handler: src/controller/assignment.handler
     events:
         - http:
             path: /index

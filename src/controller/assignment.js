@@ -5,8 +5,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const uuid = require('uuid/v4');
 
-const dbConnection = require('../dbConfigs');
-const AssignmentService = require('../Services/assignment');
+const dbConnection = require('../../dbConfigs');
+const AssignmentService = require('../services/assignment');
 
 
 app.use(bodyParser.json());
